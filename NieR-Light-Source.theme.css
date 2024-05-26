@@ -1,0 +1,72 @@
+/**
+ * @name NieR: Automata UI Light
+ * @version 1.4
+ * @description Glory to Mankind. || 
+ * Thanks to JulioDRai for letting me use their cursors! 
+ * ~https://www.deviantart.com/juliodrai || 
+ * Thanks to GOmonkeymanGO for letting me use some of their code 
+ * ~https://github.com/ChaseIngebritson/YoRHa-Discord-Theme || 
+ * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @author Accrazed#2710
+ * @invite X4nBPCa
+ * @patreon https://www.patreon.com/accrazed
+ * @authorId 153562159161278473
+ */
+/*
+ *  :::.       .,-:::::   .,-::::: :::::::..    :::.     :::::::::.,:::::::::::::-.  
+ *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
+ * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
+ * c$$$cc$$$c $$$        $$$         $$$$$$c   c$$$cc$$$c   ,$$P"   $$""""   $$,    $$
+ * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,888bo,_  888oo,__ 888_,o8P'
+ * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
+ */
+
+@import url('https://raw.githubusercontent.com/RawEnchilada/YoRHa-ui-fork/main/NieR-font.css');
+/* Font */
+@import url('https://raw.githubusercontent.com/RawEnchilada/YoRHa-ui-fork/main/NieR-theme.css');
+
+/* Main File */
+#app-mount {
+    background: url("https://raw.githubusercontent.com/RawEnchilada/YoRHa-ui-fork/main/assets/light-theme-1440.png") center/cover no-repeat;
+}
+
+.tutorialContainer_b06ae6 .svg__34dd4 {
+    background: url("https://raw.githubusercontent.com/RawEnchilada/YoRHa-ui-fork/main/assets/home_light-theme.png") center/contain no-repeat;
+}
+
+#app-mount:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(78, 75, 66, 0.2)), color-stop(30%, transparent), color-stop(80%, transparent), to(rgba(78, 75, 66, 0.4))), radial-gradient(transparent 50%, rgba(78, 75, 66, 0.4));
+    background: linear-gradient(to right, rgba(78, 75, 66, 0.2), transparent 30%, transparent 80%, rgba(78, 75, 66, 0.4)), radial-gradient(transparent 50%, rgba(78, 75, 66, 0.4));
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+::-moz-selection {
+    background-color: var(--color-alert);
+    color: var(--color-high);
+}
+
+::selection {
+    background-color: var(--color-alert);
+    color: var(--color-high);
+}
+
+/* GLOBAL VARIABLES */
+:root {
+    --color-high: rgb(218, 212, 187);
+    --color-low: rgb(87, 84, 74);
+    --color-mid: rgb(151, 147, 129);
+    --color-alert: rgb(205, 102, 77);
+    --color-high-trans: rgba(218, 212, 187, 0.8);
+    --color-low-trans: rgba(87, 84, 74, 0.6);
+    --color-alert-trans: rgba(205, 102, 77, 0.7);
+    --nier-font: sce-ps3_rodin_latinregular;
+}
